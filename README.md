@@ -28,7 +28,7 @@ To Do list:
 
 **Very** important link: [Important Link](https://www.youtube.com/watch?v=xvFZjo5PgG0)
 
-**Very** important image: ![Home](https://github.com/JacJenk54/LIS-690/assets/157763172/1281a8d6-b8c2-4ae9-af52-4ba777cedec1)
+Home sweet home: ![Home](https://github.com/JacJenk54/LIS-690/assets/157763172/1281a8d6-b8c2-4ae9-af52-4ba777cedec1)
 
 ## Second Heading
 
