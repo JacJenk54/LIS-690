@@ -30,7 +30,7 @@ To Do list:
 
 **Very** important image: ![Home](https://github.com/JacJenk54/LIS-690/assets/157763172/1281a8d6-b8c2-4ae9-af52-4ba777cedec1)
 
-##Second Heading
+## Second Heading
 
 > The dark side of the force is a pathway to many abilities some consider to be unnatural
 
