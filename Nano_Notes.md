@@ -1,10 +1,10 @@
-# Nona Text Editor
+# Nano Text Editor
 ## LIS 690 Week 5
 
 ### Nano Overview
 - Nano is a plain text editor that displays just text unlike graphical text editors
 - With nano just using plain text it allows for more direct configurations
-- Think of the idea of it as being a typewriter
+- Think of the idea of it being an internet typewriter
 
 ### Nano Notes
 - Open nano by typing 'nano'
