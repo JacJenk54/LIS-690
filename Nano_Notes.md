@@ -1,4 +1,4 @@
-# Nono Text Editor
+# Nona Text Editor
 ## LIS 690 Week 5
 
 ### Nano Overview
