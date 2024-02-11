@@ -20,6 +20,6 @@
 user friendly settings such as more familiar keystroke commands
 
 ### Reflection
-I found the nano text editor to be very intriguing and look forward to using it.
-I will also give `tilde` and `micro` and try due to them offereing more userfriendly settings.
-I found it interesting how nano uses older keytroke commands due to it predating the [Common User Access] https://cseanburns.github.io/systems-librarianship/cua guidleines.
+- I found the nano text editor to be very intriguing and look forward to using it.
+- I will also give `tilde` and `micro` and try due to them offereing more userfriendly settings.
+- I found it interesting how nano uses older keytroke commands due to it predating the [Common User Access](https://cseanburns.github.io/systems-librarianship/cua guidleines).
