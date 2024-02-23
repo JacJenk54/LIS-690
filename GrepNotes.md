@@ -10,5 +10,5 @@
 - `$` = end of a line
 
 Scopus Articles
-![altt text](Scopus.jpg)
+![altt text](Scopus.png)
 
