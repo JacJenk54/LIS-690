@@ -35,5 +35,5 @@
 
 ### Reflection
 It was very interesting working with `grep`. This will prove to be
-very useful when looking through large colelctions of information
-when doing research projects and even analyzing data.
+very useful when looking through large collections of information
+when doing future research projects.
