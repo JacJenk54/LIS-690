@@ -10,5 +10,4 @@
 - `$` = end of a line
 
 Scopus Articles
-![altt text](<img width="1440" alt="Scopus" src="https://github.com/JacJenk54/LIS-690/assets/157763172/ffe8e752-fb3c-479b-a165-cbefd1ac0d49">)
-
+![altt text](<img width="1440" alt="Scopus" src="https://github.com/JacJenk54/LIS-690/assets/157763172/95e9ac7e-f253-45f0-b62a-32f0d3040d53">
