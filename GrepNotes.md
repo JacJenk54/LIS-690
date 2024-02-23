@@ -32,3 +32,8 @@
     { sum += $2; } \
     END { print sum }'`
 <img width="1440" alt="Screenshot 2024-02-23 at 4 31 09 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/3486c759-ac84-4e19-b810-7d3f1471da07">
+
+### Reflection
+It was very interesting working with `grep`. This will prove to be
+very useful when looking through large colelctions of information
+when doing research projects and even analyzing data.
