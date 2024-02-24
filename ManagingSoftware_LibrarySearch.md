@@ -1,5 +1,6 @@
 # Managing Software
 
+## Notes
 - `sudo` = execute a command as another user
   - Allows users to safely edit a software system without using the superuser's "root" account
 - `groups` = tell the user what group they belong to
