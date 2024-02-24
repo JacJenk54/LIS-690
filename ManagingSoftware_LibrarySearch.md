@@ -40,6 +40,11 @@
 2. Show the information for `yaz`: `apt show yaz`
 3. Instal `yaz`: `sudo apt install yaz`
 
+## Using Yaz
+1. Open `yaz`: yaz-client
+2. Connect to a library's OPAC/discovery service: `open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY`
+3. Find informations: `find`
+
 ## Screenshots
 Searchig for `yaz`
 <img width="1440" alt="Screenshot 2024-02-24 at 1 57 24 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/6c8992c2-1d7f-4ac5-ace1-99348a9a4a20">
@@ -47,12 +52,5 @@ Viewing `yaz`
 <img width="1440" alt="Screenshot 2024-02-24 at 1 57 03 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/f7f4733e-efc5-4aab-87c6-b49dcd6fdd4d">
 Installing `yaz`
 <img width="1440" alt="Screenshot 2024-02-24 at 1 57 12 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/f946306d-bf37-4ed4-9fa4-ffbadfa6d128">
-
-## Using Yaz
-1. Open `yaz`: yaz-client
-2. Connect to a library's OPAC/discovery service: `open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY`
-3. Find informations: `find`
-
-## Screenshots
 Connecting to UK
 <img width="1440" alt="Screenshot 2024-02-24 at 2 00 22 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/df8642eb-55fe-4148-ac23-8dfede25e7c2">
