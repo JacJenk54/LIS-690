@@ -28,7 +28,7 @@ Apache is a web server application, and one of the most popular ones
 3. View the IP adress
 - `ip a`
 
-## Graphical Browser
+## Graphical Web Browser
 1. IP located on GCloud under *VM insatnces*
 2. View orignal webpage using *http://34.16.182.17/index.html.original*
 
