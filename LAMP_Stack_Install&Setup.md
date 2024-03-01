@@ -14,7 +14,7 @@ Apache is a web server application, and one of the most popular ones
 - `apt show apache2`
 4. Install the package
 - `sudo apt install apache2`
-5. Chaeck to see if Apacher2 is ennabled and running
+5. Check to see if Apacher2 is ennabled and running
 - `systemctl status apache2`
 - Enabled = software will start on reboot
 - Active = software is running
