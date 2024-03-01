@@ -15,15 +15,13 @@ Apache is a web server application, and one of the most popular ones
 4. Install the package
 - `sudo apt install apache2`
 5. Chaeck to see if Apacher2 is ennabled and running
+- `systemctl status apache2`
 - Enabled = software will start on reboot
 - Active = software is running
-- `systemctl status apache2`
 
 ## Text Based Web Browser
 1. Install `w3m`
-- ALternative is `elinks`
 - `sudo apt install w3m`
-- `sudo apt install elinks`
 2. Visit the site
 - `w3m 127.0.0.1` or
 - `w3m 10.128.0.99`
