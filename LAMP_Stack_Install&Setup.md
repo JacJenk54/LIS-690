@@ -121,8 +121,29 @@ MySQL is a relational databade
 - `show databases;`
 3. Switch to the new **opacdb** database
 - `use opacdb;`
+4. Create a table called **books**
+`create table books (
+id int unsigned not null auto_increment,
+author varchar(150) not null,
+title varchar(150) not null,
+copyright date not null,
+primary key (id)
+);`
+5. Confirm the table was created
+- `show tables;`
+- `describe books;`
 
+## Add Records to the Table
+1. Populate opacdb database with some data
+`insert into books (author, title, copyright) values
+('Jennifer Egan', 'The Candy House', '2022-04-05'),
+('Imbolo Mbue', 'How Beautiful We Were', '2021-03-09'),
+('Lydia Millet', 'A Children\'s Bible', '2020-05-12'),
+('Julia Phillips', 'Disappearing Earth', '2019-05-14');`
+2. View all the records just created
+- `select * from books;`
 
+# Reflection
 
 
 
