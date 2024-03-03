@@ -103,6 +103,7 @@ MySQL is a relational databade
 3. Show list of databases
 - `show databases;`
 <img width="1440" alt="Screenshot 2024-03-03 at 3 25 19 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/3bd9ef86-ca94-42b2-85d9-0931b8caf9a5">
+
 4. Create an opac user
 - `create user 'opacuser'@'localhost' identified by 'XXXXXXXXX';`
 5. Create a practice database
