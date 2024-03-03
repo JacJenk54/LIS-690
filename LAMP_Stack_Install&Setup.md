@@ -1,5 +1,4 @@
 # Apache Web Server
-
 Apache is a web server application, and one of the most popular ones
 - Web servers are software that makes websites available
 - Think of the web as a file system on streroids
@@ -76,57 +75,8 @@ PHP is a server side programing language
 - `cd /var/www/html/`
 2. Create a file called **index.php**
 - `sudo nano index.php`
-3. Add the following code:
-`<html>
-<head>
-<title>Broswer Detector</title>
-</head>
-<body>
-<p>You are using the following browser to view this site:</p>
-
-<?php
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
-
-if(strpos($user_agent, 'Edge') !== FALSE) {
-    $browser = 'Microsoft Edge';
-} elseif(strpos($user_agent, 'Firefox') !== FALSE) {
-    $browser = 'Mozilla Firefox';
-} elseif(strpos($user_agent, 'Chrome') !== FALSE) {
-    $browser = 'Google Chrome';
-} elseif(strpos($user_agent, 'Opera Mini') !== FALSE) {
-    $browser = "Opera Mini";
-} elseif(strpos($user_agent, 'Opera') !== FALSE) {
-    $browser = 'Opera';
-} elseif(strpos($user_agent, 'Safari') !== FALSE) {
-    $browser = 'Safari';
-} else {
-    $browser = 'Unknown';
-}
-
-if(strpos($user_agent, 'Windows') !== FALSE) {
-    $os = 'Windows';
-} elseif(strpos($user_agent, 'Linux') !== FALSE) {
-    $os = 'Linux';
-} elseif(strpos($user_agent, 'Mac') !== FALSE) {
-    $os = 'Mac';
-} elseif(strpos($user_agent, 'iOS') !== FALSE) {
-    $os = 'iOS';
-} elseif(strpos($user_agent, 'Android') !== FALSE) {
-    $os = 'Android';
-} else {
-    $os = 'Unknown';
-}
-
-if($browser === 'Unknown' || $os === 'Unknown') {
-    echo 'No browser detected.';
-} else {
-    echo 'Your browser is ' . $browser . ' and your operating system is ' . $os . '.';
-}
-?>
-
-</body>
-</html>`
-4. Check the page *http://34.125.181.194*
+- Add appropriate code
+3. Check the page *http://34.125.181.194*
 - Should look like this:
 <img width="1440" alt="Screenshot 2024-03-03 at 2 35 01 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/e29b8dbc-b983-4f90-af97-f857b32b6424">
 
