@@ -143,8 +143,13 @@ primary key (id)
 2. View all the records just created
 - `select * from books;`
 
+## Basic OPAC
+Link: *http://34.125.86.249/opac.php*
+
 # Reflection
-
-
-
-
+This was a long but very insightful process. Ran into some troubles along the
+way but I was able to get through it. In my other classes I have only
+leanred about the general concepts of OPACS, but to see how it works behind
+the scenes is very insightful. It is hard to believe that prior to this class
+I knew nothing about Linux or programing and now I am getting to set up
+my own little OPAC.
