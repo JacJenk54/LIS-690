@@ -81,4 +81,48 @@ PHP is a server side programing language
 <img width="1440" alt="Screenshot 2024-03-03 at 2 35 01 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/e29b8dbc-b983-4f90-af97-f857b32b6424">
 
 # MySQL
+MySQL is a relational databade
+
+## Installation
+1. Install **MySQL**
+- `sudo apt install mysql-server`
+2. Check status
+- `systemctl status mysql`
+3. Run post installation script
+- `sudo mysql_secure_installation`
+4. Create a password
+5. Remove anonymous users: Y
+6. Disallow root login remotely: Y
+7. Remove test database and access to it: Y
+8. Reload privilege tables now: Y
+
+1. Become the **root Linus user**
+- `sudo su`
+2. Connect to MySQL server as a root user
+- `mysql -u root`
+3. Show list of databases
+- `show databases;`
+<img width="1440" alt="Screenshot 2024-03-03 at 3 25 19 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/3bd9ef86-ca94-42b2-85d9-0931b8caf9a5">
+4. Create an opac user
+- `create user 'opacuser'@'localhost' identified by 'XXXXXXXXX';`
+5. Create a practice database
+- `create database opacdb;`
+6. Grant user privilages
+- `grant all privileges on opacdb.* to 'opacuser'@'localhost';`
+7. Exit out of MySQL database as the root MySQL user
+- `\q`
+8. Exit out of Linux root user
+- `exit`
+
+1. Login as a Regular User
+- `mysql -u opacuser -p`
+2. Show databses
+- `show databases;`
+3. Switch to the new **opacdb** database
+- `use opacdb;`
+
+
+
+
+
 
