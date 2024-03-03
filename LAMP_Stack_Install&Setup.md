@@ -115,6 +115,7 @@ MySQL is a relational databade
 8. Exit out of Linux root user
 - `exit`
 
+## Regular User
 1. Login as a Regular User
 - `mysql -u opacuser -p`
 2. Show databses
@@ -135,11 +136,6 @@ primary key (id)
 
 ## Add Records to the Table
 1. Populate opacdb database with some data
-`insert into books (author, title, copyright) values
-('Jennifer Egan', 'The Candy House', '2022-04-05'),
-('Imbolo Mbue', 'How Beautiful We Were', '2021-03-09'),
-('Lydia Millet', 'A Children\'s Bible', '2020-05-12'),
-('Julia Phillips', 'Disappearing Earth', '2019-05-14');`
 2. View all the records just created
 - `select * from books;`
 
