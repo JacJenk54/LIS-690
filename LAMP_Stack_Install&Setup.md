@@ -13,13 +13,13 @@ Apache is a web server application, and one of the most popular ones
 - `apt show apache2`
 4. Install the package
 - `sudo apt install apache2`
-5. Check to see if Apacher2 is ennabled and running
+5. Check to see if Apache2 is ennabled and running
 - `systemctl status apache2`
 - Enabled = software will start on reboot
 - Active = software is running
 
 ## Text Based Web Browser
-1. Install `w3m`
+1. Install **w3m**
 - `sudo apt install w3m`
 2. Visit the site
 - `w3m 127.0.0.1` or
@@ -28,7 +28,7 @@ Apache is a web server application, and one of the most popular ones
 - `ip a`
 
 ## Graphical Web Browser
-1. IP located on GCloud under *VM insatnces*
+1. IP located on GCloud under **VM insatnces**
 2. View orignal webpage using *http://34.16.182.17/index.html.original*
 
 
@@ -37,7 +37,7 @@ PHP is a server side programing language
 - Interacts with databases
 
 ## Instaliation
-1. Install PHP
+1. Install **PHP**
 - `sudo apt install php libapache2-mod-php`
 2. Restart Apache2
 - `sudo systemctl restart apache2`
@@ -60,7 +60,7 @@ PHP is a server side programing language
 - `cd /etc/apache2/mods-enabled/`
 - `sudo cp dir.conf dir.conf.bak`
 - `sudo nano dir.conf`
-2. Change the line to have **index.php** listed first eathe rthan last
+2. Change the line to have **index.php** listed first rather than last
 - Should look like: `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
 3. Check configuration
 - `apachectl configtest`
