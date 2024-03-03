@@ -127,6 +127,7 @@ if($browser === 'Unknown' || $os === 'Unknown') {
 </body>
 </html>`
 4. Check the page *http://34.125.181.194*
+- Should look like this:
 <img width="1440" alt="Screenshot 2024-03-03 at 2 35 01 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/e29b8dbc-b983-4f90-af97-f857b32b6424">
 
 # MySQL
