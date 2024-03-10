@@ -7,8 +7,8 @@
 2. HTML Form
 - `sudo nano mylibrary.html`
 
-`
-<html>
+
+`<html>
 <head>
 <title>MySQL Server Example</title>
 </head>
@@ -67,16 +67,14 @@ of how an OPAC works, though.</p>
 
 
 </body>
-</html>
-`
+</html>`
 
 - Change IP adress **11.111.222.222** to **34.125.235.117**
 
 3. PHP Search Script
 - `sudo nano search.php` 
 
-`
-<?php
+`<?php
 // Load MySQL credentials
 require_once 'login.php';
 
@@ -131,8 +129,7 @@ mysqli_close($conn);
 
 echo "<p>Return to search page: <a href='http://11.111.222.222/mylibrary.html'>http://11.111.222.222/mylibrary.html</a></p>";
 
-?>
-`
+?>`
 
 - Change IP adress **11.111.222.222** to **34.125.235.117**
 
