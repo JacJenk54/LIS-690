@@ -137,3 +137,8 @@ echo "<p>Return to search page: <a href='http://11.111.222.222/mylibrary.html'>h
 - Change IP adress **11.111.222.222** to **34.125.235.117**
 
 ## Reflection
+As mentioned in my relefction last week, I am really enjoying seeing how the back-end of an Integrated Library Systems works.
+I know that this is a **very** simplified version of an OPAC, but it is allowing me to see how the systems are all connected.
+I am still very inexpreienced when it comes to more complex coding, but I am actually starting to make connections
+and understand terms and concepts that I was completely oblivious to prior to this class. I am interested to see how the UI/UX of
+websites, such as UK's InfoKat, is achieved (although I know it is **far beyond** the reaches of this course).
