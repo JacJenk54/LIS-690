@@ -3,8 +3,10 @@
 ## Instructions
 1. Go to /var/www/html/
 `cd var/ww/html/`
+
 2. HTML Form
 - `sudo nano mylibrary.html`
+
 `
 <html>
 <head>
@@ -67,9 +69,12 @@ of how an OPAC works, though.</p>
 </body>
 </html>
 `
+
 - Change IP adress **11.111.222.222** to **34.125.235.117**
+
 3. PHP Search Script
 - `sudo nano search.php` 
+
 `
 <?php
 // Load MySQL credentials
@@ -128,6 +133,7 @@ echo "<p>Return to search page: <a href='http://11.111.222.222/mylibrary.html'>h
 
 ?>
 `
+
 - Change IP adress **11.111.222.222** to **34.125.235.117**
-- 
+
 ## Reflection
