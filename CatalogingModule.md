@@ -1,6 +1,7 @@
 # Bare Bones Cataloging Module
 
 ## HTML Page and PHP Cataloging Page
+
 1. `cd /var/www/html`
 2. `sudo mkdir cataloging`
 3. `cd cataloging`
@@ -39,6 +40,7 @@
 6. Go to *http://34.125.56.111/cataloging/*
 
 ## PHP Insert Script
+
 1. `sudo nano insert.php`
 2. Insert the following code into **insert.php**
 - Repleace instances of **11.111.111.111** with **34.125.56.111**
@@ -82,6 +84,7 @@ echo "<p>Return to the cataloging page: <a href='http://11.111.111.111/catalogin
 3. Reload *http://34.125.56.111/cataloging/*
 
 ## Add Security
+
 1. Creat a password
 - `sudo htpasswd -c /etc/apache2/.htpasswd libcat`
 - Enter password
@@ -109,6 +112,7 @@ Require valid-user
 - Sign in using **libcat**
 
 ## Ownership
+
 1. Change group ownership of **/var/www/html to www-data**
 ` sudo chown :www-data /var/www/html`
 2. Set **setgid bit** on **/var/www/html**
