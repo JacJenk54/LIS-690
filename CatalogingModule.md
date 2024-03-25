@@ -7,7 +7,7 @@
 3. `cd cataloging`
 4. `sudo nano index.html`
 5. Insert following code into **index.html**
-`
+``
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +36,7 @@
     </form>
 </body>
 </html>
-`
+``
 6. Go to *http://34.125.56.111/cataloging/*
 
 ## PHP Insert Script
