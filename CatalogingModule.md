@@ -85,7 +85,7 @@ echo "<p>Return to the cataloging page: <a href='http://11.111.111.111/catalogin
 
 ## Add Security
 
-1. Creat a password
+1. Create a password
 - `sudo htpasswd -c /etc/apache2/.htpasswd libcat`
 - Enter password
 2. `cd /etc/apache2/`
@@ -104,9 +104,9 @@ AuthUserFile /etc/apache2/.htpasswd
 Require valid-user
 ```
 8. Check the configuartion file
-`apachectl configtest`
+- `apachectl configtest`
 9. If it reads **Syntax OK` restart Apache 2
-`sudo systemctl restart apache2`
+- `sudo systemctl restart apache2`
 10. Reload *http://34.125.56.111/cataloging/*
 - Should be greeted with a login page
 - Sign in using **libcat**
@@ -114,6 +114,6 @@ Require valid-user
 ## Ownership
 
 1. Change group ownership of **/var/www/html to www-data**
-` sudo chown :www-data /var/www/html`
+- ` sudo chown :www-data /var/www/html`
 2. Set **setgid bit** on **/var/www/html**
-` sudo chmod -R g+s /var/www/html`
+- ` sudo chmod -R g+s /var/www/html`
