@@ -7,7 +7,7 @@
 3. `cd cataloging`
 4. `sudo nano index.html`
 5. Insert following code into **index.html**
-``
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +36,7 @@
     </form>
 </body>
 </html>
-``
+```
 6. Go to *http://34.125.56.111/cataloging/*
 
 ## PHP Insert Script
@@ -44,7 +44,7 @@
 1. `sudo nano insert.php`
 2. Insert the following code into **insert.php**
 - Repleace instances of **11.111.111.111** with **34.125.56.111**
-`
+```
 <?php
 
 // Load MySQL credentials
@@ -80,7 +80,7 @@ $conn->close();
 
 echo "<p>Return to the cataloging page: <a href='http://11.111.111.111/cataloging/'>http://11.111.111.111/cataloging/</a></p>";
 ?>
-`
+```
 3. Reload *http://34.125.56.111/cataloging/*
 
 ## Add Security
@@ -97,12 +97,12 @@ echo "<p>Return to the cataloging page: <a href='http://11.111.111.111/catalogin
 5. `cd /var/www/html/cataloging`
 6. `sudo nano .htaccess`
 7. Insert the following code into **.htaccess**
-`
+```
 AuthType Basic
 AuthName "Authorization Required"
 AuthUserFile /etc/apache2/.htpasswd
 Require valid-user
-`
+```
 8. Check the configuartion file
 `apachectl configtest`
 9. If it reads **Syntax OK` restart Apache 2
