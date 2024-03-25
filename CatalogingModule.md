@@ -6,7 +6,7 @@
 2. `sudo mkdir cataloging`
 3. `cd cataloging`
 4. `sudo nano index.html`
-5. Insert following code into **index.html**
+5. Insert the following code into **index.html**:
 ```
 <!DOCTYPE html>
 <html>
@@ -42,8 +42,7 @@
 ## PHP Insert Script
 
 1. `sudo nano insert.php`
-2. Insert the following code into **insert.php**
-- Repleace instances of **11.111.111.111** with **34.125.56.111**
+2. Insert the following code into **insert.php**:
 ```
 <?php
 
@@ -81,6 +80,7 @@ $conn->close();
 echo "<p>Return to the cataloging page: <a href='http://11.111.111.111/cataloging/'>http://11.111.111.111/cataloging/</a></p>";
 ?>
 ```
+- Repleace instances of **11.111.111.111** with **34.125.56.111**
 3. Reload *http://34.125.56.111/cataloging/*
 
 ## Add Security
