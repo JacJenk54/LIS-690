@@ -35,8 +35,17 @@
 8. Exit MySQL prompt
 - `\q`
 
+## Set Up wp-config.php
+1. Change to wordpress directory
+- `cd /var/www/html/wordpress`
+2. Copy and rename **wp-config-sample.php** file to **wp-config.php**
+- `sudo cp wp-config-sample.php wp-config.php`
+3. Add personalized WordPress info
+- `sudo nano wp-config.php`
+- Database name: **DB_NAME**
+- Username: **DB_USER**
+- Password: **DB_PASSWORD**
+4. Disable FTP uploads
+- `define('FS_METHOD','direct');`
 
-
-
-
-
+## Change File Ownership
