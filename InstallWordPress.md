@@ -49,3 +49,8 @@
 - `define('FS_METHOD','direct');`
 
 ## Change File Ownership
+1. `sudo chown -R www-data:www-data /var/www/html/wordpress`
+
+## Run Install Script
+1. Open browser and type URL
+- `http://11.111.111.11/wordpress/wp-admin/install.php`
