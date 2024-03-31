@@ -24,7 +24,7 @@
 2. Login as MySQL root user
 - `mysql -u root`
 3. Create a new user for WordPress
-- `create user 'wordpress'@'localhost' identified by 'XXXXXXXXX'`
+- `create user 'wordpress'@'localhost' identified by 'XXXXXXXXX';`
 - Replace Xs with a strong password
 5. Create a new database for WordPress
 - `create database wordpress;`
