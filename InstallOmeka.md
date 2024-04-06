@@ -40,7 +40,7 @@
 - host     = "localhost"
 - username = "omeka"
 - password = "OmekaPassword54!"
-- dbname   = "Omeka"
+- dbname   = "omekadb"
 13. Change file ownership
 - `sudo chown -R www-data:www-data /var/www/html/omeka/files`
 14. Restart Apache
