@@ -11,4 +11,15 @@
 ## Installation
 1. Use `wget` to install Omeka
 - `sudo wget https://github.com/omeka/Omeka/releases/download/v3.1.2/omeka-3.1.2.zip`
-2. 
+2. Unzip Omeka
+- `sudo apt install unzip`
+3. Change to root user
+- `sudo su`
+4. Open MySQL
+- `mysql -u root`
+5. Create Omeka user
+- `create user 'omeka'@'localhost' identified by 'OmekaPassword54!';`
+6. Create Omeka database
+- `create database omeka;`
+7. Grant priva
+
