@@ -21,5 +21,38 @@
 - `create user 'omeka'@'localhost' identified by 'OmekaPassword54!';`
 6. Create Omeka database
 - `create database omeka;`
-7. Grant priva
+7. Grant privileges to new user
+- `grant all privileges on omeka.* to 'omeka'@'localhost';`
+8. Examine output
+- `show databases;`
+- **Omeka** shown in databses
+9. Exit MySQL
+- `\q`
+- `exit`
+10. Chnage directory to **/var/www/html**
+- `cd /var/www/html`
+11. Rename **omeka-3.1.2** to **omeka**
+- `sudo mv omeka-3.1.2 omeka`
+12. Change directory to **/var/www/html/omeka**
+- `cd /var/www/html/omeka`
+13. Configure Omeka
+- `sudo nano db.ini`
+- host     = "localhost"
+- username = "omeka"
+- password = "OmekaPassword54!"
+- dbname   = "Omeka"
+13. Change file ownership
+- `sudo chown -R www-data:www-data /var/www/html/omeka/files`
+14. Restart Apache
+- `sudo systemctl restart apache2`
+15. Restart MySQL
+- `sudo systemctl restart mysql`
+16. Go to URL
+- http://34.16.213.217/omeka/
+
+
+
+
+
+
 
