@@ -49,10 +49,3 @@
 - `sudo systemctl restart mysql`
 16. Go to URL
 - http://34.16.213.217/omeka/
-
-
-
-
-
-
-
