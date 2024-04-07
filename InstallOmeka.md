@@ -8,7 +8,7 @@
 3. Restate Apache
 - `sudo systemctl restart apache2`
 
-## Installation
+## Installation and Configuration
 1. Use `wget` to install Omeka
 - `sudo wget https://github.com/omeka/Omeka/releases/download/v3.1.2/omeka-3.1.2.zip`
 2. Unzip Omeka
@@ -51,4 +51,3 @@
 - http://34.16.213.217/omeka/
 17. Omeka PHP error
 - `http://34.125.0.127/omeka/install/`
-
