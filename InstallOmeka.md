@@ -49,3 +49,6 @@
 - `sudo systemctl restart mysql`
 16. Go to URL
 - http://34.16.213.217/omeka/
+17. Omeka PHP error
+- `http://34.125.0.127/omeka/install/`
+
