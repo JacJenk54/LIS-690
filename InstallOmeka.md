@@ -51,3 +51,14 @@
 - http://34.16.213.217/omeka/
 17. Omeka PHP error
 - `http://34.125.0.127/omeka/install/`
+18. Restart Apache
+- `sudo systemctl restart apache2`
+19. Restart MySQL
+- `sudo systemctl restart mysql`
+20. Go to URL again
+- http://34.16.213.217/omeka/
+- Sucess!!!
+
+<img width="1440" alt="Screenshot 2024-04-07 at 4 02 16 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/474ba77c-0259-407c-b16f-6d6f77f749ad">
+
+<img width="1440" alt="Screenshot 2024-04-07 at 4 00 18 PM" src="https://github.com/JacJenk54/LIS-690/assets/157763172/21a1acdb-84ba-431f-94e7-68fa9f8ee62d">
