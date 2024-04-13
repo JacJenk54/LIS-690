@@ -94,7 +94,8 @@ Create a new virtual machine
 - `systemctl restart apache2`
 
 ## Koha Web Installer
-1. 
-
-
-
+1. Get Koha username and password **(DO NOT CHANGE!!!)**
+- `nano /etc/koha/sites/bibliolib/koha-conf.xml`
+- Username: on line 257 under **<user>**
+- Password: on the line 258 under **<pass>**
+2. http://34.16.215.97:8080
