@@ -1,10 +1,10 @@
 # KohaILS
 
-## Google Cloud
+## Create New Google Cloud VM
 Create a new virtual machine
-1. Click on hamburger icon in top left corner
-2. Go to *Computer Engine*
-3. Go to *VM Instances*
+1. Click on hamburger icon (☰) in top left corner
+2. Click *Computer Engine*
+3. Click *VM Instances*
 4. Click *Create Instance*
 5. Change name to **main-ubuntu2**
 6. Set Series to **E2**
@@ -17,6 +17,20 @@ Create a new virtual machine
 - Click *Select*
 9. Check *Allow HTTP Traffic* button
 10. Click *Create*
+
+## Create Google Cloud Firewall
+1. Click on the hamburger icon (☰) in the top left corner
+2. Click *VPC Network*
+3. Click *Firewall*
+4. Choose *Create a firewall rule*
+- Name: **koha**
+- Description: **open port 8080**
+- Targets: **All instances in the network**
+- Source IPv4 ranges: **add 0.0.0.0/0**
+- Specified protocols and ports:
+  - Click on **TCP**
+  - Add **8080** in Ports box
+- Click *Create*
 
 ## Server Setup
 1. Update repositories
