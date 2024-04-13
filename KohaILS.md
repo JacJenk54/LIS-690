@@ -48,7 +48,7 @@ Create a new virtual machine
 1. Switch to **root** user
 - `sudo su`
 2. Add **Koha** repository to server
-- `echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list
+- `echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list`
 3. Add digital signature
 - `wget -q -O- https://debian.koha-community.org/koha/gpg.asc | sudo apt-key add -`
 
