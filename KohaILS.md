@@ -2,6 +2,21 @@
 
 ## Google Cloud
 Create a new virtual machine
+1. Click on hamburger icon in top left corner
+2. Go to *Computer Engine*
+3. Go to *VM Instances*
+4. Click *Create Instance*
+5. Change name to **main-ubuntu2**
+6. Set Series to **E2**
+7. Set Machine Type to **e2-mediun (2v CPU, 1 core, 4GB memory)**
+8. Go to *Boot Disk* and hit change button
+- Operating system: **Ubuntu**
+- Version: Ubuntu **20.04 LTS x86/64**
+- Boot disk type: **Balanced persistent disk**
+- Disk size: **10GB**
+- Click *Select*
+9. Check *Allow HTTP Traffic* button
+10. Click *Create*
 
 ## Server Setup
 1. Update repositories
