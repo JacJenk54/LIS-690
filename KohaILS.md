@@ -34,7 +34,7 @@ Create a new virtual machine
 
 ## Server Setup
 1. Update repositories
-- `sudo apt uodate`
+- `sudo apt update`
 2. Upgrade servers
 - `sudo apt upgrade`
 3. Clear up disk space
