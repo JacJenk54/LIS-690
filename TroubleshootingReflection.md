@@ -15,5 +15,5 @@ the issue. I watched various tutorials on YouTube and eventually came across a s
 found that I had forgotten to move the file to my downloads file (`cd downloads`). Once I
 realized this, I was both relieved and humored at myself that such a simple thing had
 caused so much stress and confusion. I immediately wrote a detailed, yet short-and-simple,
-list of steps on GitHub that walked me through the process of installing gcloud in
-terminology that I would understand.
+list of steps on GitHub (https://github.com/JacJenk54/LIS-690/blob/main/GoogleCloudDownload.md)
+that walked me through the process of installing gcloud in terminology that I would understand.
