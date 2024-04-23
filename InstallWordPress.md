@@ -53,4 +53,4 @@
 
 ## Run Install Script
 1. Open browser and type URL
-- (http://34.118.243.58/wordpress/wp-admin/install.php )
+- http://34.118.243.58/wordpress/wp-admin/install.php
